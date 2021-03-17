@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Databse Information</title>
+  </head>
+  <body>
+    <form  action = "{{ url_for('database') }}" method="POST">
+         <h3>Database Information</h3>
+         title<br>
+         <input type = "text" name = "title" ><br>
+
+         artist<br>
+         <input type="text" name="artist" ><br>
+
+         folder<br>
+         <input type = "text" name = "folder" ><br>
+
+         song_name<br>
+         <input type = "text" name = "song_name" ><br>
+
+         age<br>
+         <input type="text" name="age" ><br>
+
+         genre<br>
+         <input type="text" name="genre" ><br>
+
+         lang<br>
+         <input type="text" name="lang" ><br>
+         <input type = "submit" value = "submit" ><br>
+      </form>
+  </body>
+</html>
