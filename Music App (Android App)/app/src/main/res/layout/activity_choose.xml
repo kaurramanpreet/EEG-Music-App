@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/song"
+    tools:context=".choose">
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:entries="@array/Age"
+        android:padding="5dp"
+        android:prompt="@string/age_prompt"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="62dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="20dp"
+        android:entries="@array/Language"
+        android:padding="5dp"
+        android:prompt="@string/lang_prompt"
+        app:layout_constraintTop_toBottomOf="@+id/spinner3"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:entries="@array/Genre"
+        android:padding="5dp"
+        android:prompt="@string/genre_prompt"
+        app:layout_constraintTop_toBottomOf="@+id/spinner1"
+        tools:layout_editor_absoluteX="24dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="194dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="#FFF"
+        android:text="SUBMIT"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner2"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

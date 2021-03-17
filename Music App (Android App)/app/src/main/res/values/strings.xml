@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">youtbe</string>
+    <string name="messageWithLink"><a href="https:www.google.com/">
+        Forgot Password?</a></string>
+    <string name="messageWithLink2"><a href="#">
+        Dont have an account? Sign Up!</a></string>
+    <string name="age_prompt">OLD/NEW</string>
+    <string name="lang_prompt">Choose language</string>
+    <string name="genre_prompt">Choose genre</string>
+
+    <string-array name="Age">
+        <item>OLD</item>
+        <item>MEDIEVAL</item>
+        <item>NEW</item>
+    </string-array>
+    <string-array name="Language">
+        <item>ENGLISH</item>
+        <item>HINDI</item>
+        <item>PUNJABI</item>
+        <item>GUJRATI</item>
+    </string-array>
+    <string-array name="Genre">
+        <item>Romantic</item>
+        <item>Motivative</item>
+        <item>Sad</item>
+        <item>Meditation</item>
+    </string-array>
+</resources>
